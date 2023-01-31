@@ -1,0 +1,83 @@
+🛑1. TO SET USERNAME AND EMAIL GLOBALLY
+
+git config --user.name "niteshyadav7"
+git config --user.email "yadavnitesh0708@gmail.com"
+git config --user.name => TO CHECK 
+git config --user.email => TO CHECK 
+
+🛑2.CREATE FOLDER LOCALLY
+
+mkdir learn_git
+
+🛑3.TO GO TO FOLDER
+
+cd learn_git
+
+🛑4.TO BACK ONE FOLDER
+
+cd ..
+
+🛑5. GO TO GITHUB AND CREATE REPO => (CODE)<= COPY
+
+git clone URL
+
+🛑6.IF YOU WANT TO ADD FILE
+
+touch <file_name>
+
+🛑7.SOME IMP COMMANDS 
+
+git init
+
+git status
+
+git add . or git add <file_name>
+
+git commit -m"message"
+
+git push =>remote me chla jayega  or git push origin master
+
+git log =>gives all commit details
+
+🛑8.HOW TO UNDO 
+
+git checkout --<file_name>=>this will undo uncommited 
+
+git revert <commit_id>=>this will undo commited
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
